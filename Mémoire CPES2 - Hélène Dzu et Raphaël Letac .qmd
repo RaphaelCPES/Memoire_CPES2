@@ -1,0 +1,964 @@
+---
+title: "L’instauration de parcoursup a-t-elle permis une meilleure intégration des boursiers au sein des formations sélectives ?"
+author: Hélène Dzu et Raphaël Letac
+format: 
+  html:
+    mainfont: "Times New Roman"
+    css: styles.css
+    code-fold: true
+editor: visual
+execute:
+  warning: false
+  message: false
+---
+
+# Introduction
+
+L’accès à l’enseignement supérieur français connaît, depuis la mise en place de Parcoursup en 2018, une transformation importante de ses modalités d’orientation et d’admission. La loi « Orientation et réussite des étudiants » (ORE) s’inscrit dans un contexte de massification scolaire, d’augmentation du nombre de néo-bacheliers et de saturation croissante des capacités d’accueil de certaines formations. Elle se traduit par le remplacement d’Admission post-bac (APB), système fondé sur des vœux hiérarchisés, par Parcoursup, plateforme reposant sur des candidatures non hiérarchisées, des réponses au fil de l’eau et un classement des dossiers par les formations. Cette réforme ne constitue donc pas seulement une évolution technique de la procédure d’affectation : elle modifie plus largement les règles d’entrée dans l’enseignement supérieur.
+
+Plusieurs travaux soulignent que Parcoursup s’inscrit dans une évolution plus ancienne des politiques scolaires, marquée par la valorisation du « libre choix » des élèves et par l’individualisation croissante des parcours. Frouillou (2023) montre ainsi que les dispositifs d’affectation ne sont pas neutres : ils participent à organiser la concurrence entre élèves, établissements et formations. Dans cette perspective, Parcoursup peut être analysé comme une étape d’un « nouvel âge de la sélection », dans lequel la sélection sur dossier scolaire s’étend à l’ensemble des formations du supérieur, y compris aux licences universitaires historiquement qualifiées de non sélectives. Cette généralisation du classement des candidatures est d’autant plus importante qu’elle intervient dans un système déjà fortement hiérarchisé, où les formations se différencient selon le niveau scolaire, l’origine sociale et le genre des étudiants admis. 
+
+La littérature met également en évidence que les inégalités d’accès à l’enseignement supérieur ne se jouent pas uniquement au moment de la sélection par les formations. Elles sont déjà présentes en amont, dans les choix d’orientation et dans la distribution des vœux des candidats. Bechichi, Grenet et Thebault (2021) montrent qu’en 2017, avant la réforme, les néo-bacheliers se répartissaient déjà de manière inégale entre les formations selon leur niveau scolaire, leur origine sociale et leur genre. Selon eux, une part importante de la ségrégation scolaire et sociale à l’entrée dans l’enseignement supérieur provient de la répartition des étudiants entre les grandes catégories de formations (licences, BTS, CPGE, etc.). Autrement dit, les inégalités d’accès aux formations sélectives résultent à la fois des préférences exprimées par les candidats, de leurs stratégies d’orientation et des mécanismes de classement mis en œuvre par les établissements. 
+
+L’un des objectifs affichés de Parcoursup était pourtant de favoriser une plus grande ouverture sociale. Pour cela, la réforme a généralisé l’instauration de quotas de boursiers, destinés à garantir une part minimale de candidats boursiers appelés dans chaque formation. Ces quotas devaient notamment permettre aux élèves issus de milieux modestes d’accéder davantage aux filières les plus sélectives. Cependant, leur efficacité fait l’objet de débats. Couto, Bugeja-Bloch et Frouillou (2021) soulignent que ces quotas ne sont pas équivalents d’une formation à l’autre et qu’ils peuvent refléter les inégalités préexistantes plutôt que les corriger. En effet, leur calcul repose en partie sur la structure sociale des candidatures et sur des ajustements locaux. Les quotas peuvent donc contribuer à maintenir, voire à institutionnaliser, certaines différences sociales entre formations. 
+
+Les premiers résultats empiriques invitent également à nuancer l’idée d’un effet fortement démocratisant de Parcoursup. Bechichi, Grenet et Thebault (2021) montrent que, malgré les changements introduits par la réforme, les niveaux de ségrégation selon le niveau scolaire, l’origine sociale et le genre sont globalement restés stables à l’échelle nationale entre APB et les premières années de Parcoursup. Ils soulignent aussi que les quotas de boursiers semblent avoir eu des effets limités sur la répartition des étudiants concernés dans les formations du supérieur. Toutefois, cette stabilité générale ne signifie pas absence de changement. Certains travaux montrent que les effets de Parcoursup peuvent être plus marqués dans certaines formations en tension, dans certains territoires ou dans les filières où la concurrence entre candidats est plus forte. 
+
+La littérature met donc en évidence un paradoxe central. D’un côté, Parcoursup introduit des dispositifs supposés favoriser l’égalité des chances, comme les quotas de boursiers. De l’autre, la réforme généralise la sélection sur dossier et peut en cela accentuer la concurrence entre candidats, où s'expriment pourtant tout particulièrement les inégalités d'accès à certaines ressources (économiques, culturelles...). Dans ce contexte, l’effet réel de Parcoursup sur l’accès des étudiants boursiers aux formations sélectives demeure incertain. Les travaux existants apportent des résultats importants, mais ils portent souvent sur les premières années de la réforme, notamment 2018 et 2019, ou sur des dimensions plus larges de la ségrégation sociale et scolaire. Il apparaît donc pertinent de prolonger cette analyse en observant une année plus récente de Parcoursup et en se concentrant spécifiquement sur les étudiants boursiers, supposés être les principaux bénéficiaires des politiques d'ouverture sociale de l'enseignement supérieur.
+
+Ce mémoire s’inscrit dans cette perspective, et vise à répondre à l'interrogation suivante : « L’instauration de parcoursup a-t-elle permis une meilleure intégration des boursiers au sein des formations sélectives ? ». Plus précisément, il s’agit d’étudier la relation entre la sélectivité des formations et la part de boursiers admis, avant et après la réforme. Pour cela, nous adoptons une approche comparative entre l’année 2017, correspondant à la dernière année d’APB, et l’année 2025, occurrence la plus récente du système Parcoursup. La sélectivité des formations est quantifiée par le truchement de leur taux d’accès : plus celui-ci est faible, plus la formation est considérée comme sélective.
+
+L’apport de ce travail est double. D’abord, il actualise l’analyse des effets de Parcoursup en mobilisant des données plus récentes que celles sur lesquelles reposaient les premiers travaux sur la réforme. Ensuite, il propose une analyse centrée sur les boursiers, afin d’évaluer plus directement l’un des objectifs affichés de Parcoursup en matière d’ouverture sociale. Par ailleurs, l'enjeu se veut ici volontairement spécifique : il ne s'agit pas seulement de savoir si la part globale de boursiers a augmenté dans l'enseignement supérieur, mais surtout de déterminer si les formations les plus sélectives se sont "ouvertes", en tant qu'elles leur seraient devenues davantage accessibles. En cela, notre travail espère s'intéresser à une dimension ayant été moins largement traitée par la recherche déjà existante.
+
+Nous présenterons dans un premier temps les données mobilisées ainsi que les principales étapes de leur traitement. Nous proposerons ensuite une description des données accompagnée de visualisations, afin de mettre en évidence les principales tendances observées. Dans un troisième temps, nous procéderons à une analyse économétrique visant à estimer l’effet de la sélectivité des formations sur l’admission des étudiants boursiers, avant et après la réforme. Cette analyse sera complétée par des tests de robustesse et par une mesure des effets hétérogènes. Enfin, nous discuterons les limites de notre approche, notamment liées aux différences de périmètre entre les bases APB et Parcoursup.
+
+# I. Présentation et nettoyage des données
+
+```{r}
+#| include: false
+library(tidyverse)
+library(labelled)
+library(knitr)
+library(kableExtra)
+library(ggridges)
+library(patchwork)
+library(stargazer)
+library(modelsummary)
+library(forcats)
+PARCOURSUP <- read.csv("/Users/raphael/Desktop/CPES2 (local)/Econometrie/S2/R/data/PARCOURSUP - 2025.csv", sep = ";")
+APB <- read.csv("/Users/raphael/Desktop/CPES2 (local)/Econometrie/S2/R/data/APB - 2017.csv", sep = ";")
+```
+
+Nos deux jeux de données présentent les vœux de poursuite d'études et de réorientation dans l'enseignement supérieur ainsi que les propositions des établissements pour chaque formation à la fin du processus d'affectation de la plateforme. Le premier concerne la session 2017, dernière année du système APB. Le second jeu porte sur la session 2025 et se compose de données récoltées à partir du système PARCOURSUP. Dans les deux cas, les données ont été produites par le Ministère de l'Enseignement Supérieur.
+
+Le choix des années 2017 et 2025 vise à permettre la comparaison entre la dernière année d’APB et une année récente de Parcoursup. Pour les données APB, nous avons choisi les plus récentes, dans le but de limiter (autant que faire se peut) l'influence de potentiels effets de structure sur nos observations, et d'isoler autant que possible les effets du seul changement de système. Pour autant, dans un souci d'obtenir des résultats *a minima* nouveaux, nous ne pouvions pas traiter les données de 2018, première année d'instauration de Parcoursup, déjà mobilisées notamment par Couto, Bugeja-Bloch et Frouillou (2021), ainsi que par Bechichi, Grenet et Thebault (2021). Partant de ce postulat, nous avons choisi de nous intéresser aux données les plus récentes possibles. En effet, au-delà de la seule comparaison avec APB, il nous a semblé intéressant de dresser (ou du moins, de s'y efforcer) un "état des lieux" de l'intégration des boursiers dans les formations sélectives aujourd'hui.
+
+Nos deux jeux de données ne comportent pas exactement le même nombre de variables et d'observations. APB compte 17 753 observations et 37 variables, contre 14 252 observations et 118 variables pour PARCOURSUP. Une rapide étude des deux bases a mis en exergue que le différentiel dans le nombre de variables s'expliquait par l'existence dans PARCOURSUP de "sous-catégories" extrêmement détaillées, en plus des variables qui étaient déjà existantes dans APB (par exemple, des variables supplémentaires subdivisant des catégories déjà existantes entre les deux phases d'admission (principale et secondaire)). Dès lors, dans la mesure où notre recherche vise à mener des analyses comparatives entre APB et PARCOURSUP, nous avons choisi de commencer par "nettoyer" APB (base la plus "simple", moins complète), puis d'appliquer les exacts mêmes traitements à PARCOURSUP, de sorte à obtenir deux bases de données dont les variables soient parfaitement similaires.
+
+Une première étape a donc consisté à sélectionner les variables que nous souhaitions conserver dans APB, à les renommer puis à les labelliser. De plus, il s'est avéré que le jeu "APB" contenait aussi les données de 2016. Dans la mesure où nous ne voulions travailler que sur l'année 2017, nous n'avons logiquement conservé que les observations qui correspondaient à celle-ci.
+
+```{r}
+#| echo: true
+APB <- APB %>%
+  filter(Session == 2017) %>%
+  select(
+    -c(Candidats.admis.dans.son.académie.d.origine,
+       Candidats.admis.dans.son.établissement.d.origine..BTS.CPGE...dont.filles,
+       Candidats.admis.dans.son.établissement.d.origine..BTS.CPGE.,
+       X..Candidats.admis.dans.son.académie.d.origine,
+       X..Candidats.admis.dans.son.établissement.d.origine..BTS.CPGE.,
+       Admissions.sur.leur.vœu.1, Admissions.sur.leur.vœu.1..dont.filles,
+       Demandes.en.vœu.1, Demandes.en.vœu.1..dont.filles,
+       Candidats.admis..sans.mention.au.bac, Candidats.admis.avec.mention.A.B.au.bac,
+       Candidats.admis.avec.mention.B.au.bac, Candidats.admis.avec.mention.T.B.au.bac,
+       Rang.du.dernier.candidat.appelé, Effectif.total.des.candidats..dont.filles,
+       Départements, Régions, Candidats.ayant.reçu.une.proposition..dont.filles)
+  ) %>%
+  rename(
+    UAI = Code.UAI.de.l.établissement.d.accueil,
+    Etablissement = Libellé.de.l.établissement.d.accueil,
+    Departement = Code.département,
+    Filieres = Filières.de.formations,
+    Filieres_agregees = Filières.très.agrégées,
+    Filieres_detaillees = Filières.de.formations.très.détaillées,
+    Capacite = Capacité.de.l.établissement.par.formation,
+    Candidats = Effectif.total.des.candidats,
+    Candidats_admis = Effectif.total.des.candidats.admis,
+    Candidats_admis_filles = Effectif.total.des.candidats.admis..dont.filles,
+    Candidats_admis_boursiers = Effectif.des.admis.boursiers,
+    Taux_boursiers = X..admis.boursiers,
+    Taux_SM = X..Candidats.admis.sans.mention.au.bac,
+    Taux_AB = X..Candidats.admis.avec.mention.A.B.au.bac,
+    Taux_B = X..Candidats.admis.avec.mention.B.au.bac,
+    Taux_TB = X..Candidats.admis.avec.mention.T.B.au.bac,
+    Academie = Académies,
+    Candidats_proposition_reçue = Candidats.ayant.reçu.une.proposition
+  )
+
+var_label(APB$UAI) <- "Code UAI de l'établissement"
+var_label(APB$Academie) <- "Académie de l'établissement"
+var_label(APB$Capacite) <- "Capacité d'accueil de la formation"
+var_label(APB$Etablissement) <- "Nom de l'établissement"
+var_label(APB$Departement) <- "Département de l'établissement"
+var_label(APB$Filieres_agregees) <- "Filière d'étude générale"
+var_label(APB$Filieres) <- "Filière d'étude"
+var_label(APB$Filieres_detaillees) <- "Filière d'étude détaillée"
+var_label(APB$Candidats_admis_boursiers) <- "Nombre de boursiers admis"
+var_label(APB$Taux_boursiers) <- "Taux de boursiers parmi les admis"
+var_label(APB$Taux_SM) <- "Taux d'admis sans mention"
+var_label(APB$Taux_AB) <- "Taux d'admis avec mention assez bien"
+var_label(APB$Taux_B) <- "Taux d'admis avec mention bien"
+var_label(APB$Taux_TB) <- "Taux d'admis avec mention très bien"
+```
+
+Il a ensuite s'agit d'appliquer l'exact même traitement aux données Parcoursup. Toutefois, dans celles-ci, les variables disponibles concernant les candidats boursiers ne renseignent pas le nombre total d’admis boursiers, mais uniquement le nombre d’admis boursiers parmi les néo-bacheliers. Le taux de boursiers utilisé pour Parcoursup correspond donc au pourcentage d’admis néo-bacheliers boursiers. Cette différence doit être prise en compte dans l’interprétation des résultats, notamment par rapport à APB, où la variable disponible porte plus largement sur les admis boursiers. Néanmoins, il nous a semblé que cette limite restait "acceptable", dans la mesure où les néo-bacheliers constituent la majorité des admis dans Parcoursup. De plus, une petite spécificité de ce jeu de données (Parcoursup) implique une légère transformation : alors que dans APB les mentions très bien et très bien avec félicitations du jury au bac étaient agrégées, elles sont séparées dans Parcoursup. Il nous a donc fallu recréer la même variable que dans APB.
+
+```{r}
+#| echo: true
+PARCOURSUP <- PARCOURSUP %>%
+  mutate(Taux_TB = X..d.admis.néo.bacheliers.avec.mention.Très.Bien.au.bac + 
+           X..d.admis.néo.bacheliers.avec.mention.Très.Bien.avec.félicitations.au.bac) %>%
+  rename(
+    UAI = Code.UAI.de.l.établissement,
+    Etablissement = Établissement,
+    Departement = Code.départemental.de.l.établissement,
+    Academie = Académie.de.l.établissement,
+    Filieres_agregees = Filière.de.formation.très.agrégée,
+    Filieres = Filière.de.formation.détaillée,
+    Filieres_detaillees = Filière.de.formation.très.détaillée,
+    Capacite = Capacité.de.l.établissement.par.formation,
+    Candidats = Effectif.total.des.candidats.pour.une.formation,
+    Candidats_admis = Effectif.total.des.candidats.ayant.accepté.la.proposition.de.l.établissement..admis.,
+    Candidats_admis_filles = Dont.effectif.des.candidates.admises,
+    Candidats_admis_boursiers = Dont.effectif.des.admis.boursiers.néo.bacheliers,
+    Taux_boursiers = X..d.admis.néo.bacheliers.boursiers,
+    Taux_SM = X..d.admis.néo.bacheliers.sans.mention.au.bac,
+    Taux_AB = X..d.admis.néo.bacheliers.avec.mention.Assez.Bien.au.bac,
+    Taux_B = X..d.admis.néo.bacheliers.avec.mention.Bien.au.bac,
+    Candidats_proposition_reçue = Effectif.total.des.candidats.ayant.reçu.une.proposition.d.admission.de.la.part.de.l.établissement
+  ) %>%
+  select(Session, UAI, Etablissement, Departement, Academie, 
+         Filieres_agregees, Filieres, Filieres_detaillees, 
+         Capacite, Candidats, Candidats_admis, Candidats_admis_filles, 
+         Candidats_admis_boursiers, Taux_boursiers, 
+         Taux_SM, Taux_AB, Taux_B, Taux_TB, Candidats_proposition_reçue)
+
+var_label(PARCOURSUP$UAI) <- "Code UAI de l'établissement"
+var_label(PARCOURSUP$Academie) <- "Académie de l'établissement"
+var_label(PARCOURSUP$Capacite) <- "Capacité d'accueil de la formation"
+var_label(PARCOURSUP$Etablissement) <- "Nom de l'établissement"
+var_label(PARCOURSUP$Departement) <- "Département de l'établissement"
+var_label(PARCOURSUP$Filieres_agregees) <- "Filière d'étude générale"
+var_label(PARCOURSUP$Filieres) <- "Filière d'étude"
+var_label(PARCOURSUP$Filieres_detaillees) <- "Filière d'étude détaillée"
+var_label(PARCOURSUP$Candidats_admis_filles) <- "Nombre d'admises"
+var_label(PARCOURSUP$Candidats_admis_boursiers) <- "Nombre de boursiers néo-bacheliers admis"
+var_label(PARCOURSUP$Taux_boursiers) <- "Taux de boursiers parmi les admis néo-bacheliers"
+var_label(PARCOURSUP$Taux_SM) <- "Taux d'admis sans mention"
+var_label(PARCOURSUP$Taux_AB) <- "Taux d'admis avec mention assez bien"
+var_label(PARCOURSUP$Taux_B) <- "Taux d'admis avec mention bien"
+var_label(PARCOURSUP$Taux_TB) <- "Taux d'admis avec mention très bien"
+```
+
+L'étape suivante de notre travail sur les données a consisté à créer trois variables nécessaires à notre analyse future, aussi bien dans APB que dans PARCOURSUP. La première est le taux d'accès à une formation, que nous avons simplement calculé en nous référant à la définition de celui-ci : le nombre de propositions d'admission envoyées par la formation divisé par le nombre de candidats ayant postulé. Cette variable constitue notre indicateur de sélectivité : plus le taux d’accès est faible, plus la formation est considérée comme sélective, car une proportion plus réduite de candidats reçoit une proposition d’admission.
+
+Par la suite, certaines de nos variables d'intérêt étant continues (le taux d'accès et la part d'admis ayant obtenu la mention très bien), il nous a fallu transformer les transformer en catégorielles, dans la perspective de les utiliser ensuite dans nos régressions. Pour ce faire, nous avons choisi de créer des "seuils", c'est-à-dire de découper nos variables en différents intervalles.
+
+La définition de celui-ci a été simple pour le "seuil de mentions très bien" : il nous a suffi de créer dix déciles, dans la mesure où la distribution assurait que chaque catégorie comporte un nombre suffisant d'observations.
+
+Cela a été plus difficile pour les seuils de sélectivité. Une représentation visuelle sera précieuse dans l'illustration de cette difficulté.
+
+```{r}
+#| echo: true
+# APB
+APB <- APB %>% 
+  mutate(
+    Candidats = as.numeric(Candidats),
+    Candidats_proposition_reçue = as.numeric(Candidats_proposition_reçue),
+    Taux_acces = Candidats_proposition_reçue / Candidats * 100
+  )
+
+APB <- APB %>% 
+  mutate(Seuil_selectivite = cut(Taux_acces, 
+                                 breaks = c(0, 10, 20, 30, 40, 100),  
+                                 include.lowest = T,
+                                 labels = c("0% - 10%", "10% - 20%", "20% - 30%", "30% - 40%","40% - 100%")))
+
+APB <- APB %>% 
+  mutate(Seuil_TB = cut(Taux_TB, 
+                       breaks = c(0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100),  
+                       include.lowest = T,
+                       labels = c("0% - 10%", "10% - 20%", "20% - 30%", "30% - 40%", "40% - 50%", "50% - 60%", "60% - 70%", "70% - 80%", "80% - 90%", "90% - 100%")))
+
+
+var_label(APB$Candidats) <- "Nombre de candidats"
+var_label(APB$Candidats_proposition_reçue) <- "Nombre de candidats ayant reçu une proposition"
+var_label(APB$Candidats_admis) <- "Nombre d'admis"
+var_label(APB$Candidats_admis_filles) <- "Nombre d'admises"
+var_label(APB$Seuil_selectivite) <- "Seuil de taux d'accès"
+var_label(APB$Taux_acces) <- "Taux d'accès"
+var_label(APB$Seuil_TB) <- "Seuil de proportion de mention très bien"
+
+# PARCOURSUP
+PARCOURSUP <- PARCOURSUP %>% 
+  mutate(
+    Candidats = as.numeric(Candidats),
+    Candidats_proposition_reçue = as.numeric(Candidats_proposition_reçue),
+    Taux_acces = Candidats_proposition_reçue / Candidats * 100
+  )
+
+PARCOURSUP <- PARCOURSUP %>% 
+  mutate(Seuil_selectivite = cut(Taux_acces, 
+                                 breaks = c(0, 20, 30, 40, 50, 60, 70, 80, 90, 100),  
+                                 include.lowest = T,
+                                 labels = c("0% - 20%", "20% - 30%", "30% - 40%", "40% - 50%","50% - 60%", "60% - 70%", "70% - 80%", "80% - 90%", "90% - 100%")))
+
+PARCOURSUP <- PARCOURSUP %>% 
+  mutate(Seuil_TB = cut(Taux_TB, 
+                       breaks = c(0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100),  
+                       include.lowest = T,
+                       labels = c("0% - 10%", "10% - 20%", "20% - 30%", "30% - 40%", "40% - 50%", "50% - 60%", "60% - 70%", "70% - 80%", "80% - 90%", "90% - 100%")))
+
+var_label(PARCOURSUP$Candidats) <- "Nombre de candidats"
+var_label(PARCOURSUP$Candidats_proposition_reçue) <- "Nombre de candidats ayant reçu une proposition"
+var_label(PARCOURSUP$Candidats_admis) <- "Nombre d'admis"
+var_label(PARCOURSUP$Candidats_admis_filles) <- "Nombre d'admises"
+var_label(PARCOURSUP$Seuil_selectivite) <- "Seuil de taux d'accès"
+var_label(PARCOURSUP$Taux_acces) <- "Taux d'accès"
+var_label(PARCOURSUP$Seuil_TB) <- "Seuil de proportion de mention très bien"
+
+# Bloc de code expliqué dans la partie II.B) Visualisation
+APB <- APB %>%
+  mutate(
+    Filieres_agregees = str_replace_all(Filieres_agregees, "2_DUT", "BUT"),
+    Filieres_agregees = str_replace_all(Filieres_agregees, "8_Ingénieur", "Ecole d'Ingénieur"),
+    Filieres_agregees = str_replace_all(Filieres_agregees, "Autre", "Autre formation"),
+    Filieres_agregees = str_replace_all(Filieres_agregees, "6_PACES", "PASS"),
+    Filieres_agregees = str_replace_all(Filieres_agregees, "7_Management", "Ecole de Commerce")
+  )
+
+APB_clean <- APB %>%
+  mutate(Source = "APB") %>%
+  mutate(Filieres_agregees = str_remove(Filieres_agregees, "^\\d+_")) %>%
+  mutate(across(everything(), as.character))
+
+PARCOURSUP_clean <- PARCOURSUP %>%
+  mutate(Source = "PARCOURSUP") %>%
+  mutate(Filieres_agregees = str_remove(Filieres_agregees, "^\\d+_")) %>%
+  mutate(across(everything(), as.character))
+
+comparaison_data <- bind_rows(APB_clean, PARCOURSUP_clean) %>%
+  mutate(across(c(Taux_boursiers, Taux_acces, 
+                  Taux_SM, Taux_AB, Taux_B, Taux_TB), as.numeric))
+
+filieres_communes <- intersect(
+  unique(APB_clean$Filieres_agregees), 
+  unique(PARCOURSUP_clean$Filieres_agregees)
+)
+
+comparaison_data_filieres <- comparaison_data %>%
+  filter(Filieres_agregees %in% filieres_communes) %>%
+  filter(!is.na(Filieres_agregees))
+
+couleurs <- c("APB" = "skyblue3", "PARCOURSUP" = "orange3")
+theme_bien <- theme_minimal() + 
+  theme(
+    plot.title = element_text(face = "bold", size = 14),
+    plot.caption = element_text(face = "italic", size = 9, hjust = 0, color = "grey20"),
+    strip.text = element_text(face = "bold")
+  ) +
+  theme(panel.grid  = element_blank())
+
+ggplot(comparaison_data, aes(x = Taux_acces, fill = Source)) +
+  geom_histogram(color = "white", bins = 30, alpha = 0.8, show.legend = FALSE) +
+  facet_wrap(~Source) +
+  scale_fill_manual(values = couleurs) +
+  theme_bien +
+  labs(
+    title = "Comparaison du taux d'accès",
+    x = "Taux d'accès (%)",
+    y = "Nombre de formations",
+    caption = "Lecture : Sous APB, près de 2 000 formations présentent un taux d'accès compris entre 20 et 25%."
+  )
+```
+
+En effet, on remarque bien ici que si sous Parcoursup, la distribution est relativement homogène (avec toutefois, un nombre assez peu important de "formations sélectives", *i.e.* dont le taux d'accès est inférieur à 10%), ce n'est absolument pas le cas pour APB, qui ne compte que très peu de formations avec un taux d'accès supérieur à 50% (nous reviendrons ultérieurement sur les fondements de cette différence). Dans un souci de conserver dans nos régressions des résultats significatifs et pas trop "artificiels", nous avons donc choisi d'agréger les catégories supérieures à 40% pour APB, et celles entre 0 et 20% pour PARCOURSUP.
+
+La dernière partie de notre nettoyage des données a enfin consisté à conserver un nombre d'observations sensiblement similaire dans "APB" et "PARCOURSUP". En effet, quand la première base compte 8749 observations en 2017, c'est 14252 pour la seconde. Dans la mesure où notre étude vise à étudier l'effet de l'instauration de Parcoursup, nous avons considéré qu'il était pertinent de supprimer au maximum les formations nouvelles, pour ne s'intéresser qu'aux seules voies d'accès qui étaient déjà existantes sous APB. Ce faisant, nous visons à éviter que notre étude ne soit biaisée par un éventuel effet de structure relatif aux études supérieures dans leur ensemble, dans le but de ne s'intéresser qu'au seul effet de l'instauration d'une nouvelle plateforme de sélection.
+
+Pour ce faire, nous avons commencé par normaliser les intitulés de formations qui pouvaient avoir changé de nom entre 2017 et 2025 (BUT / DUT ; PACES / PASS...). On force ensuite le passage en majuscules et la suppression des numéros qui pouvaient précéder l'intitulé de certaines filières dans APB. Il ne nous reste alors plus qu'à créer, à partir de l'UAI et de l'intitulé d'une formation, une clé d'identification unique à chaque formation (mais similaire dans les bases Parcoursup et APB). Il suffit enfin de filtrer dans Parcoursup les clés déjà présentes dans APB.
+
+```{r}
+#| echo: true
+APB <- APB %>%
+  mutate(
+    Filieres_agregees = str_replace_all(Filieres_agregees, "2_DUT", "BUT"),
+    Filieres_agregees = str_replace_all(Filieres_agregees, "8_Ingénieur", "Ecole d'Ingénieur"),
+    Filieres_agregees = str_replace_all(Filieres_agregees, "Autre", "Autre formation"),
+    Filieres_agregees = str_replace_all(Filieres_agregees, "6_PACES", "PASS"),
+    Filieres_agregees = str_replace_all(Filieres_agregees, "7_Management", "Ecole de Commerce")
+  )
+
+APB <- APB %>%
+  mutate(
+    UAI = str_squish(str_to_upper(UAI)),
+    Filiere_clean = str_squish(str_remove_all(str_to_upper(Filieres_agregees), "^\\d+_")),
+    Cle_Match = paste(UAI, Filiere_clean, sep = "_")
+  )
+
+PARCOURSUP <- PARCOURSUP %>%
+  mutate(
+    UAI = str_squish(str_to_upper(UAI)),
+    Filiere_clean = str_squish(str_remove_all(str_to_upper(Filieres_agregees), "^\\d+_")),
+    Cle_Match = paste(UAI, Filiere_clean, sep = "_")
+  ) %>%
+  filter(Cle_Match %in% APB$Cle_Match) %>%
+  select(-Filiere_clean, -Cle_Match)
+
+APB <- APB %>%
+  select(-Filiere_clean, -Cle_Match)
+
+var_label(APB$Filieres_agregees) <- "Filière d'étude générale"
+```
+
+Il nous semble toutefois pertinent de présenter quelques éléments explicatifs de cet important (et surprenant) différentiel dans le nombre de formations entre 2017 et 2025. On peut d'abord noter la transformation des études de santé (avec la création des PASS et LAS), auxquelles s'ajoutaient en 2025 des filières paramédicales (IFSI, orthophonie...) qui recrutaient auparavant hors plateforme. Toutefois, l'évolution la plus notable réside probablement dans l'essor de l'apprentissage, qui n'a cessé de s'universaliser depuis 2017. Or, si celui-ci était pratiquement absent de la plateforme APB, la dynamique s'est largement transformée en 2025. Désormais, de plus en plus de formations en apprentissage, pour lesquelles l'inscription se faisait auparavant hors des plateformes, tendent à être représentées sur ces dernières. En d'autres termes, cela signifie que si le nombre d'observations a certes augmenté entre 2017 et 2025, le choix offert aux candidats n'a pour autant pas été fondamentalement transformé. Les différentes possibilités tendent simplement à être centralisées au sein d'une unique plateforme, incarnée par Parcoursup (ce qui semble expliquer l'apparente homogénisation des taux de sélectivité sur cette dernière : la demande est restée sensiblement inchangée, mais l'offre proposée sur la plateforme s'est considérablement accrue).
+
+# II. Description et visualisation des données
+
+## A) Description des données
+
+Une fois les données nettoyées, il convient de les décrire à l'aide de statistiques appropriées. Les tableaux suivants résument la distribution de nos trois types de variables : la variable expliquée (le taux de boursiers), la variable explicative principale (le taux d'accès, qui mesure la sélectivité, ainsi que les seuils de sélectivité que nous avons créés) et les variables de contrôle (la part des filles admises et le taux d'admis par mention au baccalauréat). Ces statistiques sont fournies séparément pour le système APB (2017) et le système Parcoursup (2025) afin de permettre une première comparaison directe des deux périodes.
+
+```{r}
+#| echo: true
+stats_variables_APB <- APB %>%
+  summarise(
+    Taux.acces_moyenne = mean(Taux_acces, na.rm = TRUE),
+    Taux.acces_mediane = median(Taux_acces, na.rm = TRUE),
+    Taux.acces_min = min(Taux_acces, na.rm = TRUE),
+    Taux.acces_max = max(Taux_acces, na.rm = TRUE),
+    Taux.acces_IQR = IQR(Taux_acces, na.rm = TRUE),
+    Taux.acces_observations = n(),
+    Boursiers_moyenne = mean(Taux_boursiers, na.rm = TRUE),
+    Boursiers_mediane = median(Taux_boursiers, na.rm = TRUE),
+    Boursiers_min = min(Taux_boursiers, na.rm = TRUE),
+    Boursiers_max = max(Taux_boursiers, na.rm = TRUE),
+    Boursiers_IQR = IQR(Taux_boursiers, na.rm = TRUE),
+    Boursiers_observations = n(),
+    SM_moyenne = mean(Taux_SM, na.rm = TRUE),
+    SM_mediane = median(Taux_SM, na.rm = TRUE),
+    SM_min = min(Taux_SM, na.rm = TRUE),
+    SM_max = max(Taux_SM, na.rm = TRUE),
+    SM_IQR = IQR(Taux_SM, na.rm = TRUE),
+    SM_observations = n(),
+    AB_moyenne = mean(Taux_AB, na.rm = TRUE),
+    AB_mediane = median(Taux_AB, na.rm = TRUE),
+    AB_min = min(Taux_AB, na.rm = TRUE),
+    AB_max = max(Taux_AB, na.rm = TRUE),
+    AB_IQR = IQR(Taux_AB, na.rm = TRUE),
+    AB_observations = n(),
+    B_moyenne = mean(Taux_B, na.rm = TRUE),
+    B_mediane = median(Taux_B, na.rm = TRUE),
+    B_min = min(Taux_B, na.rm = TRUE),
+    B_max = max(Taux_B, na.rm = TRUE),
+    B_IQR = IQR(Taux_B, na.rm = TRUE),
+    B_observations = n(),
+    TB_moyenne = mean(Taux_TB, na.rm = TRUE),
+    TB_mediane = median(Taux_TB, na.rm = TRUE),
+    TB_min = min(Taux_TB, na.rm = TRUE),
+    TB_max = max(Taux_TB, na.rm = TRUE),
+    TB_IQR = IQR(Taux_TB, na.rm = TRUE),
+    TB_observations = n(),
+  ) %>% 
+  pivot_longer(
+    cols = everything(), 
+    names_to = c("Variable", "Statistique"), 
+    names_sep = "_",    
+    values_to = "Valeur"                
+  ) %>%
+  pivot_wider(
+    names_from = Statistique,
+    values_from = Valeur
+  )
+
+stats_seuils_APB <- APB %>%
+	filter(!is.na(Seuil_selectivite)) %>%
+  group_by(Seuil_selectivite) %>%
+  summarise(
+    moyenne = mean(Taux_acces, na.rm = TRUE),
+    mediane = median(Taux_acces, na.rm = TRUE),
+    min = min(Taux_acces, na.rm = TRUE),
+    max = max(Taux_acces, na.rm = TRUE),
+    IQR = IQR(Taux_acces, na.rm = TRUE),
+    observations = n()
+  ) %>%
+  ungroup() %>%
+  mutate(Variable = paste("Seuil", Seuil_selectivite)) %>%
+  select(Variable, moyenne, mediane, min, max, IQR, observations)
+
+stats_descriptives_APB <- bind_rows(stats_variables_APB, stats_seuils_APB)
+kable(stats_descriptives_APB, 
+      caption = "Tableau de données descriptives - APB (2017)",
+      digits = 2)
+```
+
+```{r}
+#| echo: true
+stats_variables_PARCOURSUP <- PARCOURSUP %>%
+  summarise(
+    Taux.acces_moyenne = mean(Taux_acces, na.rm = TRUE),
+    Taux.acces_mediane = median(Taux_acces, na.rm = TRUE),
+    Taux.acces_min = min(Taux_acces, na.rm = TRUE),
+    Taux.acces_max = max(Taux_acces, na.rm = TRUE),
+    Taux.acces_IQR = IQR(Taux_acces, na.rm = TRUE),
+    Taux.acces_observations = n(),
+    Boursiers_moyenne = mean(Taux_boursiers, na.rm = TRUE),
+    Boursiers_mediane = median(Taux_boursiers, na.rm = TRUE),
+    Boursiers_min = min(Taux_boursiers, na.rm = TRUE),
+    Boursiers_max = max(Taux_boursiers, na.rm = TRUE),
+    Boursiers_IQR = IQR(Taux_boursiers, na.rm = TRUE),
+    Boursiers_observations = n(),
+    SM_moyenne = mean(Taux_SM, na.rm = TRUE),
+    SM_mediane = median(Taux_SM, na.rm = TRUE),
+    SM_min = min(Taux_SM, na.rm = TRUE),
+    SM_max = max(Taux_SM, na.rm = TRUE),
+    SM_IQR = IQR(Taux_SM, na.rm = TRUE),
+    SM_observations = n(),
+    AB_moyenne = mean(Taux_AB, na.rm = TRUE),
+    AB_mediane = median(Taux_AB, na.rm = TRUE),
+    AB_min = min(Taux_AB, na.rm = TRUE),
+    AB_max = max(Taux_AB, na.rm = TRUE),
+    AB_IQR = IQR(Taux_AB, na.rm = TRUE),
+    AB_observations = n(),
+    B_moyenne = mean(Taux_B, na.rm = TRUE),
+    B_mediane = median(Taux_B, na.rm = TRUE),
+    B_min = min(Taux_B, na.rm = TRUE),
+    B_max = max(Taux_B, na.rm = TRUE),
+    B_IQR = IQR(Taux_B, na.rm = TRUE),
+    B_observations = n(),
+    TB_moyenne = mean(Taux_TB, na.rm = TRUE),
+    TB_mediane = median(Taux_TB, na.rm = TRUE),
+    TB_min = min(Taux_TB, na.rm = TRUE),
+    TB_max = max(Taux_TB, na.rm = TRUE),
+    TB_IQR = IQR(Taux_TB, na.rm = TRUE),
+    TB_observations = n(),
+  ) %>% 
+  pivot_longer(
+    cols = everything(), 
+    names_to = c("Variable", "Statistique"), 
+    names_sep = "_",    
+    values_to = "Valeur"                
+  ) %>%
+  pivot_wider(
+    names_from = Statistique,
+    values_from = Valeur
+  )
+
+stats_seuils_PARCOURSUP <- PARCOURSUP %>%
+	filter(!is.na(Seuil_selectivite)) %>%
+  group_by(Seuil_selectivite) %>%
+  summarise(
+    moyenne = mean(Taux_acces, na.rm = TRUE),
+    mediane = median(Taux_acces, na.rm = TRUE),
+    min = min(Taux_acces, na.rm = TRUE),
+    max = max(Taux_acces, na.rm = TRUE),
+    IQR = IQR(Taux_acces, na.rm = TRUE),
+    observations = n()
+  ) %>%
+  ungroup() %>%
+  mutate(Variable = paste("Seuil", Seuil_selectivite)) %>%
+  select(Variable, moyenne, mediane, min, max, IQR, observations)
+
+stats_descriptives_PARCOURSUP <- bind_rows(stats_variables_PARCOURSUP, stats_seuils_PARCOURSUP)
+
+kable(stats_descriptives_PARCOURSUP, 
+      caption = "Tableau de données descriptives - Parcoursup (2025)",
+      digits = 2)
+```
+
+À partir de ces tableaux, on observe plusieurs tendances notables. Le taux d'accès moyen a connu une évolution significative entre les deux périodes, passant d'environ 21% sous APB à environ 44% sous Parcoursup. Cet écart illustre l'un des enjeux majeurs de la réforme ORE : remédier à la saturation des capacités d'accueil des formations. Cette hausse suggère une plus grande probabilité pour un candidat de recevoir une proposition d'admission, reflétant potentiellement l'effort d'élargissement de l'offre de formation ou une meilleure gestion des flux de candidats.
+
+Par ailleurs, le taux de boursiers parmi les admis ne semble pas avoir évolué entre les deux années. Cette stabilité globale est cohérente avec les travaux de l'INSEE qui soulignent que la part des boursiers est restée stable à l'échelle nationale après la réforme. Ce constat est particulièrement pertinent pour la suite de notre étude : à volume constant de boursiers dans le système, nous allons pouvoir analyser si la structure de leur répartition a évolué, notamment au sein des formations les plus sélectives.
+
+Enfin, on observe une légère progression de la part des admis ayant obtenu une mention Très bien au baccalauréat sur la période récente, ce qui pourrait traduire une hausse du niveau académique exigé par les formations, phénomène appuyé par la baisse de la part des admis ayant obtenu le baccalauréat sans mention. La part des filles reste, quant à elle, globalement stable entre les deux systèmes.
+
+## B) Visualisation des données
+
+Avant de procéder à l’analyse économétrique, il est nécessaire de compléter les statistiques descriptives par une visualisation des principales variables mobilisées. Les graphiques permettent en effet d’identifier plus facilement la structure des données, les éventuels écarts entre APB et Parcoursup, ainsi que les relations possibles entre la sélectivité des formations, le taux de boursiers et certaines caractéristiques scolaires des admis.
+
+```{r}
+#| include: true
+APB_clean <- APB %>%
+  mutate(Source = "APB") %>%
+  mutate(Filieres_agregees = str_remove(Filieres_agregees, "^\\d+_")) %>%
+  mutate(across(everything(), as.character))
+
+PARCOURSUP_clean <- PARCOURSUP %>%
+  mutate(Source = "PARCOURSUP") %>%
+  mutate(Filieres_agregees = str_remove(Filieres_agregees, "^\\d+_")) %>%
+  mutate(across(everything(), as.character))
+
+comparaison_data <- bind_rows(APB_clean, PARCOURSUP_clean) %>%
+  mutate(across(c(Taux_boursiers, Taux_acces, 
+                  Taux_SM, Taux_AB, Taux_B, Taux_TB), as.numeric))
+
+filieres_communes <- intersect(
+  unique(APB_clean$Filieres_agregees), 
+  unique(PARCOURSUP_clean$Filieres_agregees)
+)
+
+comparaison_data_filieres <- comparaison_data %>%
+  filter(Filieres_agregees %in% filieres_communes) %>%
+  filter(!is.na(Filieres_agregees))
+
+couleurs <- c("APB" = "skyblue3", "PARCOURSUP" = "orange3")
+theme_bien <- theme_minimal() + 
+  theme(
+    plot.title = element_text(face = "bold", size = 14),
+    plot.caption = element_text(face = "italic", size = 9, hjust = 0, color = "grey20"),
+    strip.text = element_text(face = "bold")
+  ) +
+  theme(panel.grid  = element_blank())
+```
+
+Le bloc de code précédent a pour objectif de préparer une base commune permettant de comparer directement les deux systèmes. Dans un premier temps, les bases APB et Parcoursup sont harmonisées en ajoutant une variable `Source` qui indique si l’observation provient du système APB ou Parcoursup.
+
+Ensuite, les deux jeux de données sont transformés dans le même format afin de pouvoir être fusionnés. Les variables sont d’abord converties en `"character"` pour éviter des problèmes de compatibilité entre les deux bases, puis les variables quantitatives nécessaires à l’analyse, comme le taux de boursiers, le taux d’accès, le taux de filles ou les taux de mentions, sont reconverties en variables numériques. Cette opération permet de construire une base unique appelée `comparaison_data`, qui sert ensuite à produire les graphiques comparant APB et Parcoursup.
+
+Pour les graphiques comparant le taux de boursiers selon les filières entre APB et Parcoursup, il était nécessaire de conserver uniquement les filières communes aux deux systèmes. C'est donc ce qui est fait dans la base `comparaison_data_filieres`. Cela permet d’éviter de comparer des catégories de formations qui n’existent pas dans les deux bases ou qui ne sont pas représentées de la même manière.
+
+```{r}
+#| echo: true
+ggplot(comparaison_data, aes(x = Taux_boursiers, fill = Source)) +
+  geom_histogram(color = "white", bins = 30, alpha = 0.8, show.legend = FALSE) +
+  facet_wrap(~Source) +
+  scale_fill_manual(values = couleurs) +
+  theme_bien +
+  labs(
+    title = "Comparaison du taux de boursiers",
+    x = "Taux de boursiers (%)",
+    y = "Nombre de formations",
+    caption = "Lecture : Sous Parcoursup, plus de 1 000 formations affichent un taux de boursiers compris entre 20% et 25%."
+  )
+```
+
+Le premier graphique représente la distribution du taux de boursiers parmi les admis, séparément pour APB et Parcoursup. Dans les deux cas, les taux de boursiers se concentrent principalement autour de valeurs intermédiaires. Cela confirme l’idée déjà observée dans les statistiques descriptives : le taux global de boursiers parmi les admis ne semble pas avoir fortement augmenté après l’instauration de Parcoursup.
+
+Cependant, la distribution sous Parcoursup apparaît plus dispersée. On observe un pic de formations situées à des niveaux très faibles de boursiers, mais aussi quelques formations présentant des taux très élevés. Cette dispersion suggère que l’effet de Parcoursup ne doit pas être analysé uniquement à partir d’une moyenne générale. Même si la part moyenne de boursiers reste relativement stable, leur répartition entre formations semble avoir évolué.
+
+```{r}
+#| echo: true
+p1 <- ggplot(comparaison_data_filieres, 
+       aes(x = Taux_boursiers, y = Filieres_agregees, fill = Source)) +
+  geom_density_ridges(alpha = 0.6, scale = 0.8, color = "white", show.legend = FALSE) +
+  facet_wrap(~Source) +
+  scale_fill_manual(values = couleurs) +
+  coord_cartesian(xlim = c(0, 100)) +
+  theme_ridges() +
+  theme_bien +
+  theme(legend.position = "none") +
+  labs(
+    title = "Taux de boursiers par filière", 
+    x = "Taux de boursiers (%)",
+    y = "Filière"
+  )
+
+p2 <- ggplot(comparaison_data_filieres, 
+       aes(x = Taux_acces, y = Filieres_agregees, fill = Source)) +
+  geom_density_ridges(alpha = 0.6, scale = 0.8, color = "white", show.legend = FALSE) +
+  facet_wrap(~Source) +
+  scale_fill_manual(values = couleurs) +
+  coord_cartesian(xlim = c(0, 100)) +
+  theme_ridges() +
+  theme_bien + 
+  theme(
+    legend.position = "none",
+    axis.text.y = element_blank(),
+    axis.title.y = element_blank()
+  ) +
+  labs(
+    title = "Sélectivité par filière", 
+    x = "Taux d'accès (%)"
+  )
+
+p1 + p2 +
+	 plot_annotation(
+    caption = "Lecture : Les BTS accueillent globalement davantage de boursiers, tandis que les CPGE et les écoles d’ingénieurs
+se concentrent sur des taux de boursiers plus faibles"
+  ) &
+  theme(
+    plot.caption = element_text(
+      hjust = 0,
+      face = "italic",
+      size = 8.5
+    )
+  )
+```
+
+Le deuxième graphique permet d’approfondir cette analyse en comparant la structure des filières entre APB et Parcoursup. Il présente, d’une part, la distribution du taux de boursiers par filière et, d’autre part, la distribution du taux d’accès, qui constitue notre indicateur de sélectivité. Pour rappel, plus le taux d’accès est faible, plus une formation peut être considérée comme sélective, puisqu’une plus faible part des candidats reçoit une proposition d’admission.
+
+La partie gauche du graphique montre que le taux de boursiers varie fortement selon les filières. Les CPGE présentent généralement des taux de boursiers plus faibles que les autres formations, ce qui confirme leur position particulière dans l’enseignement supérieur français. À l’inverse, les BTS et, dans une moindre mesure, les BUT, apparaissent comme des filières où la présence de boursiers est plus importante. Les licences occupent une position intermédiaire, avec une distribution relativement concentrée autour de valeurs moyennes.
+
+Sous Parcoursup, les distributions semblent plus étalées, en particulier pour les licences et les BTS. Cela peut traduire une plus grande hétérogénéité interne des formations : toutes les licences, tous les BTS ou tous les BUT ne présentent pas le même niveau d’ouverture sociale. Certaines formations accueillent une proportion importante de boursiers, tandis que d’autres restent beaucoup plus fermées socialement. Cette observation est importante car elle montre que la filière agrégée ne suffit pas à elle seule à expliquer la composition sociale des admis. Deux formations appartenant à une même catégorie peuvent avoir des profils très différents.
+
+La partie droite du graphique, consacrée au taux d’accès, met en évidence une différence structurelle entre APB et Parcoursup. Sous APB, les taux d’accès sont globalement plus concentrés, alors que sous Parcoursup, ils sont davantage dispersés et souvent plus élevés. Cela rejoint l'analyse qui nous a poussé à différencier les seuils de sélectivité entre APB et Parcoursup.
+
+Enfin, la mise en regard des deux parties du graphique permet de mieux comprendre le lien entre composition sociale et sélectivité des formations. Les filières qui présentent les taux de boursiers les plus faibles, comme les CPGE, sont aussi celles qui se caractérisent généralement par une plus forte sélectivité.
+
+```{r}
+#| echo: true
+ggplot(comparaison_data %>% 
+         filter(!is.na(Seuil_selectivite)) %>%
+         mutate(Seuil_selectivite = forcats::fct_reorder(Seuil_selectivite, readr::parse_number(as.character(Seuil_selectivite)))), 
+       aes(x = Seuil_selectivite, y = Taux_boursiers, fill = Source)) +
+  geom_boxplot(alpha = 0.7, outlier.size = 0.5) +
+  scale_fill_manual(values = couleurs) +
+  theme_bien +
+  labs(
+    title = "Taux de boursiers par seuil de sélectivité",
+    x = "Seuil de sélectivité",
+    y = "Taux de boursiers (%)",
+    caption = "Lecture : Sous Parcoursup, pour les formations dont le taux d’accès est compris entre 0 % et 20 %,
+le taux médian de boursiers se situe autour de 25 %."
+  ) +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) + 
+  coord_cartesian(ylim = c(0, 60))
+```
+
+Le troisième graphique analyse plus directement la relation entre le taux de boursiers et les seuils de sélectivité. Il permet d’observer si les formations les plus sélectives accueillent une part plus faible de boursiers. À première vue, la relation n’apparaît pas totalement linéaire. Les médianes du taux de boursiers restent relativement proches d’un seuil à l’autre, notamment sous APB. Cela signifie qu’à ce stade descriptif, la sélectivité ne suffit pas toujours à expliquer, à elle seule, les écarts de taux de boursiers.
+
+On observe toutefois une augmentation de la médiane du taux de boursiers entre APB et Parcoursup pour les premiers seuils de sélectivité, c’est-à-dire pour les formations les plus sélectives. Cette évolution peut être mise en lien avec l’instauration de dispositifs visant à favoriser l’accès des candidats boursiers à certaines formations, notamment les quotas de boursiers évoqués dans la littérature. Cette observation suggère que Parcoursup a pu contribuer à accroître la présence de boursiers dans une partie des formations sélectives.
+
+En revanche, la dispersion est importante, en particulier sous Parcoursup. À l’intérieur d’un même seuil de sélectivité, certaines formations accueillent très peu de boursiers, tandis que d’autres en accueillent une proportion nettement plus élevée. Cette hétérogénéité indique que d’autres facteurs interviennent probablement, comme le type de filière, le niveau académique des admis, la localisation de l’établissement ou encore les stratégies d’orientation des candidats. Ce graphique prépare donc directement l’analyse économétrique : il montre que l’effet de la sélectivité doit être estimé en contrôlant d’autres caractéristiques des formations.
+
+```{r}
+#| echo: true
+p1 <- ggplot(comparaison_data %>% 
+               filter(!is.na(Seuil_TB)) %>%
+               mutate(Seuil_TB = forcats::fct_reorder(Seuil_TB, readr::parse_number(as.character(Seuil_TB)))), 
+             aes(x = Seuil_TB, y = Taux_acces)) +
+  geom_boxplot(aes(fill = Source), alpha = 0.6, outlier.size = 0.5, color = "grey30") +
+  stat_summary(fun = median, geom = "line", aes(group = Source, color = Source), linewidth = 1.2) +
+  scale_fill_manual(values = couleurs) +
+  scale_color_manual(values = couleurs) +
+  theme_bien +
+  labs(
+    title = "Relation entre la part de mentions TB et le taux d'accès",
+    x = "Seuil de mention TB",
+    y = "Taux d'accès (%)"
+  ) +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+p2 <- ggplot(comparaison_data %>% 
+               filter(!is.na(Seuil_TB)) %>%
+               mutate(Seuil_TB = forcats::fct_reorder(Seuil_TB, readr::parse_number(as.character(Seuil_TB)))), 
+             aes(x = Seuil_TB, y = Taux_boursiers)) +
+  geom_boxplot(aes(fill = Source), alpha = 0.6, outlier.size = 0.5, color = "grey30") +
+  stat_summary(fun = median, geom = "line", aes(group = Source, color = Source), linewidth = 1.2) +
+  scale_fill_manual(values = couleurs) +
+  scale_color_manual(values = couleurs) +
+  theme_bien +
+  labs(
+    title = "Relation entre la part de mentions TB et le taux de boursiers",
+    x = "Seuil de mention TB",
+    y = "Taux de boursiers (%)",
+    caption = "Sous Parcoursup et APB, lorsque la part de mentions Très bien est comprise entre 90 % et 100 %,
+le taux médian de boursiers est inférieur à 10 %."
+  ) +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+p1 / p2
+```
+
+Enfin, le dernier ensemble de graphiques étudie le rôle de la part d’admis ayant obtenu une mention Très bien au baccalauréat. Le premier graphique met en relation le seuil de mention Très bien et le taux d’accès. On observe une relation négative : plus la part d’admis avec mention Très bien est élevée, plus le taux d’accès tend à être faible. Autrement dit, les formations qui concentrent les meilleurs profils scolaires sont aussi généralement les plus sélectives (relation positive entre mention Très bien et sélectivité). Cette relation est particulièrement visible sous Parcoursup, où la médiane du taux d’accès diminue progressivement lorsque la part de mentions Très bien augmente.
+
+Cette observation confirme la pertinence d’intégrer la variable de mention Très bien dans l’analyse. Elle permet de prendre en compte le niveau académique des admis et d’éviter de confondre deux effets différents : l’effet propre de la sélectivité d’une formation et l’effet lié au niveau scolaire des candidats admis.
+
+Le second graphique met en relation le seuil de mention Très bien et le taux de boursiers. On observe encore une relation globalement décroissante : plus la part d’admis avec mention Très bien est importante, plus le taux de boursiers tend à diminuer. Ce résultat suggère que les formations les plus exigeantes scolairement accueillent proportionnellement moins de boursiers. Cette tendance est cohérente avec l’idée selon laquelle les inégalités d’accès aux formations sélectives ne reposent pas uniquement sur la procédure d’admission, mais aussi sur des inégalités scolaires et sociales antérieures. Les boursiers peuvent être moins nombreux dans les formations où les profils académiques les plus valorisés sont fortement représentés.
+
+Ainsi, les visualisations font apparaître plusieurs résultats importants. D’abord, le taux global de boursiers semble relativement stable entre APB et Parcoursup, mais leur répartition entre formations demeure très hétérogène. Ensuite, les différences entre filières restent marquées : les CPGE apparaissent moins ouvertes socialement que les autres filières. Enfin, la sélectivité et le niveau académique des admis sont fortement liés, ce qui rend nécessaire une analyse économétrique contrôlant plusieurs variables simultanément.
+
+Ces graphiques ne permettent donc pas, à eux seuls, de conclure à un effet causal de Parcoursup sur l’intégration des boursiers dans les formations sélectives. Ils mettent toutefois en évidence les grandes tendances des données et justifient la suite de l’analyse, qui cherchera à mesurer plus précisément l’effet de la sélectivité sur le taux de boursiers, avant et après la réforme.
+
+# III. Analyse
+
+Après la mise en exergue de grandes tendances et des observations générales sur nos échantillons, il va désormais s'agir de mener une analyse économétrique, dans le but de mesurer de manière aussi rigoureuse que possible l'effet propre de la sélectivité des formations sur l'admission des étudiants boursiers. Pour ce faire, nous formaliserons dans un premier temps l'équation de notre modèle de régression linéaire avant d'en discuter les résultats et la robustesse face à l'introduction progressive de différentes variables de contrôle et d’interaction.
+
+## A) Présentation du modèle
+
+L'équation de notre modèle est donnée par :
+
+$$Taux\_boursiers_f = \alpha + \sum_{k} \beta_k \times \mathbf{1}_{\{Seuil\_selectivite_f = k\}} + \varepsilon_f$$
+
+Pour une formation $f$ donnée, la variable $Taux\_boursiers_f$ représente le pourcentage d'étudiants boursiers admis au sein de la formation (le pourcentage de néo-bacheliers boursiers pour Parcoursup), et l'indicatrice $\mathbf{1}_{\{Seuil\_selectivite_f = k\}}$ vaut $1$ si la formation appartient au seuil de sélectivité $k$, $0$ sinon. La variable explicative étant qualitative et découpée en modalités, la constante $\alpha$ donne la part moyenne de boursiers admis dans la formation appartenant à la catégorie de référence (qui sera définie par les seuils regroupant les formations les moins sélectives, *i.e.* "40%-100%" pour APB et "90%-100%" pour Parcoursup). La pente $\beta_k$ correspond, elle, au changement moyen de la proportion de boursiers entraîné par le passage d'une formation appartenant au seuil $k$ de sélectivité par rapport à la catégorie de référence.
+
+```{r}
+#| echo: true
+APB <- APB %>%
+  mutate(Seuil_selectivite = fct_relevel(factor(Seuil_selectivite), "40% - 100%"),
+         Seuil_TB = fct_relevel(factor(Seuil_TB), "0% - 10%"))
+
+PARCOURSUP <- PARCOURSUP %>%
+  mutate(Seuil_selectivite = fct_relevel(factor(Seuil_selectivite), "90% - 100%"),
+         Seuil_TB = fct_relevel(factor(Seuil_TB), "0% - 10%"))
+
+modele_APB_1 <- lm(Taux_boursiers ~ Seuil_selectivite, APB)
+modele_PARCOURSUP_1 <- lm(Taux_boursiers ~ Seuil_selectivite, PARCOURSUP)
+
+ordre_selectivite <- c(
+  "Seuil_selectivite0% - 10%", 
+  "Seuil_selectivite0% - 20%",   
+  "Seuil_selectivite10% - 20%", 
+  "Seuil_selectivite20% - 30%", 
+  "Seuil_selectivite30% - 40%", 
+  "Seuil_selectivite40% - 50%", 
+  "Seuil_selectivite50% - 60%", 
+  "Seuil_selectivite60% - 70%", 
+  "Seuil_selectivite70% - 80%", 
+  "Seuil_selectivite80% - 90%"
+)
+
+stargazer(modele_APB_1, modele_PARCOURSUP_1, 
+          type = "text",
+          column.labels = c("APB (2017)", "Parcoursup (2025)"),
+          dep.var.labels = "Taux de boursiers (%)",
+          order = ordre_selectivite,
+          title = "Impact de la sélectivité sur la part de boursiers")
+```
+
+Le tableau ci-dessus présente les résultats de l'estimation de notre équation de base, et donc d'un modèle "naïf", n'expliquant le taux de boursiers admis que par le seuil de sélectivité de la formation.
+
+On remarque d'abord que pour les catégories de référence (les formations les moins sélectives), la part moyenne d'étudiants boursiers admis est de 24,77% sous APB et de 26,38% sous Parcoursup. Cette légère différence peut s'expliquer par le fait que la catégorie de référence de Parcoursup soit plus "restrictive" que celle d'APB (90%-100% contre 40%-100%). Or, comme l'ont montré Bechichi, Grenet et Thebault (2021), les boursiers sont tendanciellement sur-représentés dans les formations les moins sélectives.
+
+L'analyse des coefficients révèle ensuite que sous APB, le taux de sélectivité ne semble pas avoir un très fort impact sur le taux de boursiers. Le fait d'appartenir au seuil sélectif des 10% - 20% diminue certes la part de boursiers de 1,38 points par rapport à la catégorie de référence (résultat significatif au seuil de 5%). Étonnamment toutefois, la catégorie la plus sélective (0% - 10%) ne présente pas d'effet significatif.
+
+L'observation des résultats de Parcoursup met en exergue une dynamique *a priori* inattendue. En effet, contrairement à ce que l'on pourrait penser, les formations les plus sélectives (0% - 20% et 20% - 30%) ne présentent pas d'effet significatif par rapport à la catégorie la plus "ouverte". En revanche, on observe pour les seuils suivants un effet à la fois significatif (au seuil de 1%) et important. Cet effet croît jusqu'à atteindre une baisse de plus de six points de pourcentage pour les formations avec un taux d'accès compris entre 70% et 80%. Là encore, c'est donc un résultat surprenant. Celui-ci pourrait s'expliquer par des réformes (comme les quotas de boursiers) qui auraient potentiellement protégé l'accès des boursiers aux filières les plus sélectives, déplaçant alors leur déficit d'intégration vers les formations "intermédiaires" (avec un taux de sélectivité compris entre 30% et 80%).
+
+Ce premier modèle présente toutefois des limites évidentes, soulignées par la faiblesse du $R^2$, qui signifie que la sélectivité seule n'explique qu'une infime fraction de la variance du taux de boursiers. Dès lors, il apparaît nécessaire de l'enrichir.
+
+## B) Robustesse
+
+### 1. Contrôle par le niveau académique
+
+En effet, le précédent modèle souffre d'un important biais de variable omise : le niveau académique est fortement corrélé à la fois à l'origine sociale des individus (et donc à l'éventuel statut de boursier) et à la sélectivité de la formation. Isoler l'effet propre de la sélectivité sur l'admission des boursiers suppose donc de neutraliser l'effet du niveau scolaire des admis. Par ailleurs, nous reprenons ici une distinction fondatrice de la sociologie boudonienne, proposée dans *L'inégalité des chances : la mobilité sociale dans les sociétés industrielles* (1973), entre « effets primaires » (les inégalités de réussite académique liées à l'origine sociale) et « effets secondaires » (les inégalités de choix d'orientation à niveau scolaire donné). Par l'introduction de ce contrôle, l'idée est donc de pouvoir distinguer la part propre de chacun des effets dans la perpétuation de l'inégale répartition des boursiers au sein des formations du supérieur. Ici, le niveau scolaire des admis sera mesuré par la proportion d'étudiants au sein d'une formation ayant obtenu une mention très bien au bac. Les résultats de ce premier contrôle sont donnés dans le tableau suivant par les colonnes "APB.2" et "PARCOURSUP.2", qui prennent pour catégorie de référence le seuil de mentions très bien le plus faible : 0% - 10%.
+
+```{r}
+#| echo: true
+modele_APB_2 <- lm(Taux_boursiers ~ Seuil_selectivite + Seuil_TB, APB)
+modele_PARCOURSUP_2 <- lm(Taux_boursiers ~ Seuil_selectivite + Seuil_TB, PARCOURSUP)
+
+ordre_TB <- c(
+  "Seuil_TB90% - 100%",
+  "Seuil_TB80% - 90%",
+  "Seuil_TB70% - 80%",
+  "Seuil_TB60% - 70%",
+  "Seuil_TB50% - 60%",
+  "Seuil_TB40% - 50%",
+  "Seuil_TB30% - 40%",
+  "Seuil_TB20% - 30%",
+  "Seuil_TB10% - 20%"
+)
+
+stargazer(modele_APB_1, modele_APB_2, modele_PARCOURSUP_1, modele_PARCOURSUP_2,  
+          type = "text",
+          column.labels = c("APB.1", "APB.2", "PARCOURSUP.1", "PARCOURSUP.2"),
+          dep.var.labels = "Taux de boursiers (%)",
+          order = c(ordre_selectivite, ordre_TB), 
+          title = "Impact de la sélectivité sur la part de boursiers (contrôlé par les mentions TB)")
+```
+
+Premier élément rassurant vis-à-vis du choix de ce contrôle : on observe une très forte augmentation du $R^2$ par rapport au premier modèle, ce qui suppose un probable meilleur pouvoir explicatif.
+
+Et en effet, l'analyse des coefficients révèle bien que l'absence de boursiers, loin de ne provenir que de la sélectivité, tient mécaniquement à une exigence d'excellence académique. Les coefficients associés aux tranches de mention très bien sont ainsi tous très importants, négatifs, et d'autant plus faibles que la part de mentions très bien devient forte. À titre d'exemple, sous Parcoursup, l'appartenance d'une formation à l'"excellence académique" (90% - 100% de mentions très bien) diminue de manière significative (au seuil de 1%) la part de boursiers de 25,03 points de pourcentage par rapport à la catégorie de référence (0% - 10%). Il semble donc que s'opère bien une éviction des boursiers dans certaines formations, mais que celle-ci tient davantage à un certain niveau d'exigence académique qu'à un certain taux de sélectivité. Plus précisément, il faudrait peut-être ici reconsidérer quelque peu la définition de "sélectivité" que nous avons jusqu'alors mobilisée. En effet, si celle-ci est évidemment déterminée par le taux d'accès d'une formation, il semble aussi qu'elle dépende du niveau moyen des candidats (qui, *in fine*, transparaîtra probablement dans le niveau moyen des admis). Par exemple, deux formations peuvent afficher un taux de sélectivité de 20%. Toutefois, si pour l'une, la moyenne au bac des admis est 13, et pour l'autre, 18, un élève avec 16 de moyenne aura de fortes chances d'être admis dans la première, et de faibles dans l'autre. Autrement dit, la seconde formation est plus difficile d'accès, quand bien même cela ne transparaît pas dans le seuil de sélectivité. Finalement, de cette régression peut être faite l'analyse suivante : l'éviction des boursiers tient davantage à l'excellence académique qu'à la seule sélectivité (du moins, lorsque celle-ci est mesurée par le taux d'accès, comme c'est le cas dans ce mémoire). Bonneau, Charousset, Grenet et Thebault (2021) ont en effet montré que la part d'élèves obtenant une mention très bien au bac est largement plus faible chez les lycéens boursiers que chez les non-boursiers.
+
+D'autre part, à seuil de mentions très bien fixe, on observe une hausse significative (au seuil de 1%) de la part moyenne de boursiers dans les formations les plus sélectives par rapport à la catégorie de référence (+2,83 points de pourcentage pour APB ; +4,11 points de pourcentage pour Parcoursup). En d'autres termes, cela signifie que lorsqu'elles recrutent au sein d'un même vivier scolaire, les formations sélectives ne tendent pas à écarter les boursiers ; bien au contraire, il semble qu'il existe une sorte de "discrimination positive". Par ailleurs, l'effet plus important observé dans Parcoursup que dans APB pourrait bien être la traduction statistique des quotas de boursiers instaurés par la loi ORE.
+
+L'observation des deux précédentes dynamiques permet enfin de statuer sur le poids respectif des effets primaires et secondaires dans notre modèle. D'un côté, les seuils de mentions très bien (qui témoignent du niveau académique d'une formation et capturent donc les effets primaires) présentent des sous-représentations significatives (au seuil de 1%) massives des boursiers par rapport aux catégories de référence (-23,39 points de pourcentage pour APB et -25,03 pour Parcoursup). De l'autre, à niveau académique donné, les boursiers tendent même à être sur-représentés dans les formations très sélectives ("discrimination positive" précédemment évoquée). Dans nos deux bases de données, il semble donc que ce soient les effets primaires qui jouent (très largement) le rôle le plus important dans la perpétuation de l'inégal accès des boursiers aux formations du supérieur.
+
+### 2. Contrôle par la nature de la formation
+
+La deuxième partie de notre démarche de robustesse va consister à neutraliser l'effet propre à la filière de la formation. En effet, par-delà leur seul taux d'accès, les formations peuvent aussi se démarquer par des histoires, réputations, débouchés, etc. attirant des publics potentiellement socialement différenciés. Par ailleurs, le choix de la nature de la formation (qui se traduira ici par la distinction entre les différentes "filières agrégées" ; licence, CPGE, BUT, etc.) comme variable de contrôle s'inscrit directement dans la foulée de la littérature académique récente. Bechichi, Grenet et Thebault (2021) ont ainsi montré qu'une part importante de la ségrégation sociale à l'entrée dans l'enseignement supérieur repose justement sur la répartition inégale des étudiants entre les différentes "grandes filières". L'idée est donc ici d'isoler le rôle de la sélectivité intra-filière, pour éviter que n'entrent en jeu des dynamiques relatives à un "choix de filière". Les modèles APB.3 et PARCOURSUP.3 intègrent donc la filière agrégée comme variable de contrôle. Ils prennent pour catégorie de référence la Licence universitaire, qui nous apparaît être la catégorie "générique", en tant qu'elle est largement la plus plébiscitée par les candidats, pour qui elle représente 30% des vœux (Note Flash du SIES, 2025).
+
+```{r}
+#| echo: true
+APB_FA <- APB_clean %>% 
+  filter(Filieres_agregees %in% filieres_communes) %>%
+  mutate(Filieres_agregees = fct_relevel(factor(Filieres_agregees), "Licence"),
+         Seuil_selectivite = fct_relevel(factor(Seuil_selectivite), "40% - 100%"),
+         Seuil_TB = fct_relevel(factor(Seuil_TB), "0% - 10%"))
+
+PARCOURSUP_FA <- PARCOURSUP_clean %>% 
+  filter(Filieres_agregees %in% filieres_communes) %>%
+  mutate(Filieres_agregees = fct_relevel(factor(Filieres_agregees), "Licence"),
+         Seuil_selectivite = fct_relevel(factor(Seuil_selectivite), "90% - 100%"),
+         Seuil_TB = fct_relevel(factor(Seuil_TB), "0% - 10%"))
+
+modele_APB_3 <- lm(Taux_boursiers ~ Seuil_selectivite + Filieres_agregees, APB_FA)
+modele_PARCOURSUP_3 <- lm(Taux_boursiers ~ Seuil_selectivite + Filieres_agregees, PARCOURSUP_FA)
+
+stargazer(modele_APB_1, modele_APB_3, modele_PARCOURSUP_1, modele_PARCOURSUP_3,  
+          type = "text",
+          column.labels = c("APB.1", "APB.3", "PARCOURSUP.1", "PARCOURSUP.3"),
+          dep.var.labels = "Taux de boursiers (%)",
+          order = c(ordre_selectivite, "^Filieres_agregees"),
+          title = "Impact de la sélectivité sur la part de boursiers contrôlé par la filière agrégée")
+```
+
+Encore une fois, l'intégration d'une variable de contrôle accroît fortement le pouvoir explicatif du modèle ($R^2 > 0,15$ pour les deux bases). Ce résultat illustre donc le point qui a été précédemment développé : les inégalités d'accès sont fortement dépendantes des hiérarchies institutionnelles qui existent entre différentes filières. Ce phénomène s'observe d'ailleurs bien par la force des coefficients traduisant le passage de la licence à une autre filière. Par exemple, par rapport à une licence, l'appartenance à une filière courte professionnalisante comme un BTS augmente significativement au seuil de 1% la part de boursiers de 1,56 point de pourcentage sous APB, et de 5,97 sous Parcoursup. Et à l'inverse, l'appartenance à des filières historiquement d'"élite", socialement valorisées, comme les CPGE ou les écoles d'ingénieurs, entraîne une éviction très importante des boursiers (supérieure à 10 points de pourcentage, sous APB comme sous Parcoursup).
+
+D'autre part, la comparaison inter-temporelle de ces coefficients (quand bien même la catégorie de référence de la sélectivité diffère) met en exergue des dynamiques d'"ouverture" assez notables entre 2017 et 2025. En premier lieu, on observe une très importante démocratisation des écoles de commerce, au sein desquelles la sous-représentation des boursiers par rapport aux licences est significativement (au seuil de 1%) passée de -14,08 à -6,42 points de pourcentage par rapport aux licences. Cette évolution peut probablement s'expliquer par des facteurs institutionnels extérieurs à la seule plateforme. Tout particulièrement, on peut noter que le développement massif des formations en apprentissage et de l'alternance (déjà évoqué précédemment) a largement permis de lever des barrières financières qui pouvaient exister à l'entrée en école de commerce pour les étudiants boursiers (dans la mesure où c'est l'entreprise dans laquelle l'étudiant est employé qui prend en charge les frais de scolarisation). En second lieu, les CPGE semblent, elles aussi, connaître avec Parcoursup une (timide) démocratisation, avec une diminution significative (au seuil de 1%) d'environ 1,5 point de pourcentage de leur sous-représentation des boursiers par rapport aux licences. Une fois encore, il est possible que cette évolution statistique soit la manifestation des dispositifs instaurés par la loi ORE.
+
+Enfin, le contrôle par la filière agrégée permet d'isoler le seul effet de la sélectivité intra-filière. Sous APB, à l'instar de ce que nous pouvions observer avec l'exigence académique, le seuil le plus sélectif (0% - 10%) présente un coefficient positif et significatif au seuil de 1%. Cela signifie qu'au sein d'une même filière, les formations les plus sélectives tendent à accueillir une part légèrement supérieure de boursiers par rapport aux formations les plus faciles d'accès. Sous Parcoursup cependant, cet effet disparaît (le coefficient devient simplement non significatif), bien qu'encore une fois, demeure une forme d'éviction des boursiers au sein des filières intermédiaires (comme pour le contrôle par le niveau académique, l'effet est croissant puis décroissant).
+
+Quoi qu'il en soit, ces résultats confirment et consolident notre précédente hypothèse : l'exclusion des candidats boursiers tient moins au taux d'accès institutionnel qu'à la nature de la concurrence ou au type de filière visé.
+
+### 3. Contrôle par le niveau académique et la nature de la formation
+
+Dans le cadre de notre démarche de robustesse, il s'agit enfin de vérifier l'intégration simultanée de nos deux variables de contrôle dans les modèles APB.4 et PARCOURSUP.4
+
+```{r}
+#| echo: true
+modele_APB_4 <- lm(Taux_boursiers ~ Seuil_selectivite + Seuil_TB + Filieres_agregees, APB_FA)
+modele_PARCOURSUP_4 <- lm(Taux_boursiers ~ Seuil_selectivite + Seuil_TB + Filieres_agregees, PARCOURSUP_FA)
+
+stargazer(modele_APB_1, modele_APB_4, modele_PARCOURSUP_1, modele_PARCOURSUP_4,  
+          type = "text",
+          dep.var.labels = "Taux de boursiers (%)",
+          column.labels = c("APB.1", "APB.4", "PARCOURSUP.1", "PARCOURSUP.4"),
+          order = c(ordre_selectivite, ordre_TB, "^Filieres_agregees"),
+          title = "Impact de la sélectivité sur la part de boursiers contrôlé par le taux de mentions très bien et par les filières agrégées")
+```
+
+Premier constat rassurant : on observe une augmentation du pouvoir explicatif des deux modèles (dont les $R^2$ passent à plus de $0,17$), ce qui confirme bien le fait que la sous-représentation des boursiers s'explique aussi (et, *a priori*, surtout) par la combinaison de l'exigence scolaire et de l'identité institutionnelle des formations (les deux influant d'ailleurs l'une sur l'autre) plus que par la seule sélectivité.
+
+Le résultat le plus probant de cette nouvelle modélisation réside peut-être dans le fait qu'une fois le niveau académique et le type de filière fixés simultanément, les formations les plus sélectives n'écartent plus les boursiers, mais tendent au contraire à les sur-sélectionner. Ainsi, sous APB, le seuil le plus sélectif (0% - 10%) affiche un coefficient de 3,2 significatif au seuil de 1%. Surprenamment (bien qu'encore une fois, les deux régressions ne sont pas exactement comparables pour des raisons déjà explicitées), ce coefficient est plus faible pour Parcoursup : il vaut 1,9, et est significatif au seuil de 5%. Dans tous les cas, cela reflète bien la dynamique que les précédents modèles avaient déjà commencé à mettre au jour : il semble qu'à niveau scolaire et filière strictement identiques, les institutions les plus sélectives opèrent une forme de "discrimination positive" à l'égard des boursiers. On aurait toutefois pu s'attendre à ce que celle-ci soit plus importante sous Parcoursup que sous APB, du fait des politiques associées à la loi ORE.
+
+Enfin, ce modèle confirme aussi les dynamiques structurelles qui avaient déjà été isolées précédemment (ce qui semble confirmer la stabilité de nos résultats). Ainsi, l'éviction de boursiers liée à l'excellence académique demeure très forte, avec les formations du seuil 90% - 100% de mentions très bien diminuant (significativement au seuil de 1%) d'environ 15 points de pourcentage la part de boursiers par rapport à la catégorie de référence (0% - 10%), sous APB comme sous PARCOURSUP. De plus, l'effet propre aux filières perdure lui aussi (à titre d'exemple, les CPGE et les écoles d'ingénieurs maintiennent une sous-représentation des boursiers ; l'apparente démocratisation des écoles de commerce se vérifie, elle aussi, toujours).
+
+Jusqu'alors, l'ensemble de nos résultats nous permet donc de conclure que l'inégale représentation des boursiers dans les études supérieures relève davantage d'une ségrégation scolaire et institutionnelle antérieure aux mécanismes de sélection induits par les plateformes que de la seule sélectivité des formations. Jusqu'à maintenant, nos résultats ne nous permettent cependant pas vraiment de conclure sur le véritable impact de la loi ORE. S'ils révèlent bien l'existence d'une "discrimination positive" à l'égard des boursiers dans le cadre de l'accès aux formations d'excellence, ils sont moins catégoriques quant à l'évolution de celle-ci entre 2017 et 2025.
+
+## C) Hétérogénéité
+
+Après avoir testé la robustesse des résultats à l’introduction de différentes variables de contrôle, nous cherchons désormais à déterminer si l’effet de la sélectivité varie selon certaines caractéristiques des formations, afin d'étudier l'existence d'effets hétérogènes.
+
+Dans un premier temps, nous étudions l’interaction entre la sélectivité et la part de mentions Très bien.
+
+```{r}
+#| echo: true
+modele_APB_5 <- lm(Taux_boursiers ~ Seuil_selectivite * Seuil_TB, data = APB)
+
+stargazer(modele_APB_1, modele_APB_2, modele_APB_5, 
+          type = "text",
+          out = "Heterogeneite_APB_TB.html",
+          column.labels = c("Base", "Contrôle TB", "Interaction TB"),
+          dep.var.labels = "Taux de boursiers (%)",
+          order = c(ordre_selectivite, ordre_TB),
+					omit = ":",
+          add.lines = list(c("Interactions", "Non", "Non", "Oui")),
+          title = "Hétérogénéité APB : Sélectivité et Mentions TB")
+```
+
+```{r}
+#| echo: true
+modele_PARCOURSUP_5 <- lm(Taux_boursiers ~ Seuil_selectivite * Seuil_TB, data = PARCOURSUP)
+
+stargazer(modele_PARCOURSUP_1, modele_PARCOURSUP_2, modele_PARCOURSUP_5, 
+          type = "text",
+          out = "Heterogeneite_PS_TB.html",
+          column.labels = c("Base", "Contrôle TB", "Interaction TB"),
+          dep.var.labels = "Taux de boursiers (%)",
+          order = c(ordre_selectivite, ordre_TB),
+					omit = ":",
+          add.lines = list(c("Interactions", "Non", "Non", "Oui")),
+          title = "Hétérogénéité Parcoursup : Sélectivité et Mentions TB")
+```
+
+L’introduction des interactions entre les seuils de sélectivité et les seuils de mentions très bien améliore seulement légèrement le pouvoir explicatif des modèles. Sous APB, le $R^2$ passe de $0,105$ à $0,108$, et sous Parcoursup, il passe de $0,097$ à $0,105$. Cette progression limitée indique que l’effet du niveau scolaire est important en lui-même, mais que son interaction avec la sélectivité apporte une information supplémentaire relativement modérée. En d’autres termes, les formations ayant une forte part de mentions très bien accueillent moins de boursiers, mais cette relation ne varie pas de manière très forte selon tous les seuils de sélectivité. Le niveau scolaire semble donc peser fortement sur la présence des boursiers, mais il ne suffit pas à expliquer entièrement les écarts observés entre formations plus ou moins sélectives.
+
+Sous APB, les coefficients d'interaction ne sont pas tous significatifs. Par exemple, on remarque que pour le seuil 50%-60% de mentions très bien, le coefficient devient positif et non significatif. Pour autant, certains restent très significatifs, comme pour le seuil 90%-100% (où le coefficient d'interaction est fortement négatif). Sous Parcoursup, on repère les mêmes effets : les coefficients d'interaction ne sont pas intégralement significatifs.
+
+Ces résultats montrent que l’effet du niveau scolaire sur la présence des boursiers n’est pas uniforme, mais qu’il ne varie pas non plus de manière systématique selon tous les seuils de sélectivité. Le fait que plusieurs coefficients d’interaction ne soient pas significatifs indique que, dans certains cas, le croisement entre sélectivité et part de mentions Très bien n’apporte pas d’explication supplémentaire par rapport aux effets déjà observés séparément. Autrement dit, le niveau scolaire des admis joue bien un rôle important dans la composition sociale des formations, mais son effet ne dépend pas toujours fortement du niveau de sélectivité.
+
+Dans un second temps, nous introduisons une interaction entre la sélectivité et la filière agrégée. Cette analyse est pertinente dans la mesure où les résultats descriptifs ont montré que les filières expliquent une part importante des écarts de taux de boursiers.
+
+```{r}
+#| echo: true
+modele_APB_6 <- lm(Taux_boursiers ~ Seuil_selectivite * Filieres_agregees, data = APB_FA)
+
+stargazer(modele_APB_1, modele_APB_3, modele_APB_6, 
+          type = "text",
+          out = "Heterogeneite_APB_Filiere_agregees.html",
+          column.labels = c("Base", "Contrôle FA", "Interaction FA"),
+          dep.var.labels = "Taux de boursiers (%)",
+          order = c(ordre_selectivite, "^Filieres_agregees"),
+					omit = ":",
+          add.lines = list(c("Interactions", "Non", "Non", "Oui")),
+          title = "Hétérogénéité APB : Sélectivité et Filières agrégées")
+```
+
+```{r}
+#| echo: true
+modele_PARCOURSUP_6 <- lm(Taux_boursiers ~ Seuil_selectivite * Filieres_agregees, data = PARCOURSUP_FA)
+
+stargazer(modele_PARCOURSUP_1, modele_PARCOURSUP_3, modele_PARCOURSUP_6, 
+          type = "text",
+          out = "Heterogeneite_PARCOURSUP_Filiere_agregees.html",
+          column.labels = c("Base", "Contrôle FA", "Interaction FA"),
+          dep.var.labels = "Taux de boursiers (%)",
+          order = c(ordre_selectivite, "^Filieres_agregees"),
+					omit = ":",
+          add.lines = list(c("Interactions", "Non", "Non", "Oui")),
+          title = "Hétérogénéité PARCOURSUP : Sélectivité et Filières agrégées")
+```
+
+L’introduction des interactions entre la sélectivité et les filières améliore davantage le modèle que les interactions avec les mentions Très bien. Sous APB, le $R^2$ passe ainsi de $0,157$ à $0,176$, et sous Parcoursup, de $0,153$ à $0,185$. Cela montre que l’effet de la sélectivité varie selon le type de formation. Autrement dit, un même taux d’accès ne signifie pas forcément la même chose selon la filière : une licence avec un faible taux d’accès peut être une formation simplement très demandée, tandis qu’en CPGE ou en école d’ingénieurs, un faible taux d’accès renvoie davantage à une sélection scolaire plus explicite. Encore une fois, il est donc peut-être plus pertinent de résonner en termes de difficulté d'accès (qui varie selon la filière, dans la mesure où elle est déterminée par le niveau moyen des candidats) plutôt que de seule "sélectivité" quand il s'agit d'expliquer l'inégal accès des boursiers aux formations du supérieur.
+
+Sous APB, presque tous les coefficients d'interaction sont significatifs et négatifs (par exemple, celui des écoles de commerce). Un seul ne l'est pas : celui des BUT, qui devient positif. Sous Parcoursup au contraire, presque aucun coefficient d'interaction n'est significatif (pour les PASS par exemple, il est positif et non significatif). Un seul coefficient d'interaction est très significatif : celui des écoles d'ingénieurs, pour lesquelles il reste négatif.
+
+Ces résultats montrent que la relation entre sélectivité et taux de boursiers dépend en partie de la filière considérée (du moins, sous APB). Autrement dit, le passage à un certain niveau de sélectivité ne produit pas nécessairement les mêmes effets sur l'intégration des boursiers selon qu'il s'agisse d'une licence, d’un BTS, d’un BUT, d’une CPGE... L’analyse par interaction permet donc de confirmer que la filière jouait sous APB un rôle structurant dans l’intégration des boursiers. Sous Parcoursup, le manque de significativité des coefficients rend compliquée toute interprétation.
+
+# IV. Limites et perspectives de notre approche
+
+Malgré des résultats *a priori* assez probants, il convient de rappeler que notre estimation d'un effet causal du passage d'APB à Parcoursup sur l'intégration des boursiers aux formations sélectives reste soumise à différentes limites méthodologiques et structurelles.
+
+Parmi elles, on trouve d'abord l'asymétrie dans la définition des seuils de sélectivité. C'est là la principale limite à notre approche comparative, puisque dans la mesure où les seuils de référence de la variable explicative diffèrent entre APB et Parcoursup, il devient peu pertinent de comparer entre systèmes d'admission les coefficients obtenus. Cette limite est inhérente à la structure de nos données et à la différence entre la distribution du taux d'accès entre les deux systèmes.
+
+Une autre éventuelle limite, ou du moins, un point de vigilance, réside dans le fait que notre variable expliquée ($Taux\_boursiers_f$) ne mesure pas exactement la même population dans les deux bases : le nombre total d'admis boursiers pour APB, les néo-bacheliers boursiers admis seuls pour Parcoursup. Toutefois, le bilan Parcoursup 2025 du Ministère de l'Enseignement supérieur révèle que parmi les candidats de la session, environ 15% n'étaient pas des néo-bacheliers. Si l'on considère que parmi eux, environ 24% étaient boursiers (on fait ici l'hypothèse – simplificatrice – que la distribution des boursiers au sein des candidats en réorientation est sensiblement similaire à celle des candidats néo-bacheliers), ce sont finalement environ 3% des candidats qui ne sont pas représentés dans notre étude. Un des moyens de pallier en partie ce problème aurait peut-être pu être de travailler uniquement sur les néo-bacheliers admis (et non pas sur l'ensemble des admis) dans Parcoursup, de sorte à éviter que les boursiers ne soient sous-représentés dans les proportions relatives à Parcoursup. Cette solution aurait été d'autant plus efficace que la précédente hypothèse était empiriquement vérifiée.
+
+Il aurait aussi pu être intéressant de s'intéresser à la part de boursiers effectivement admis dans une formation par rapport à la part de boursiers candidats, dans l'idée de s'intéresser à la dynamique d'admission des boursiers par-delà les potentiels effets d'autocensure qui peuvent exister (voir à ce sujet Bechichi, Grenet et Thebault (2021)).
+
+Enfin, dans la perspective de s'intéresser plus aux « effets secondaires » boudoniens (nous avons ici essentiellement traité des « effets primaires »), le mieux serait peut-être encore de se munir de données individuelles et d'analyser, à profil académique strictement équivalent, les différences d'admission au sein de formations d'excellence / très sélectives entre boursiers et non-boursiers.
+
+# Conclusion
+
+Notre étude a mobilisé les données APB 2017 et Parcoursup 2025, dans le but de déterminer si l'instauration de Parcoursup a permis une meilleure intégration des étudiants boursiers au sein des formations sélectives. Cette sélectivité a été mesurée à partir du taux d'accès des formations, avec l'idée première qu'un taux d'accès faible traduit une formation plus sélective. Toutefois, notre étude aura révélé que ce n'était là qu'une définition partielle de la « sélectivité ».
+
+En effet, nos analyses économétriques ont montré que le taux d'accès seul n'expliquait qu'une faible part des différences de taux de boursiers entre formations. En revanche, l'ajout du niveau scolaire des admis et des filières agrégées (variables qui sont évidemment corrélées entre elles) révèle bien que les formations concentrant les meilleurs profils scolaires accueillent, de manière générale, moins de boursiers. Quand bien même, à niveau scolaire fixé, ceux-ci tendent à être sur-représentés dans les « formations sélectives ». Autrement dit, cela révèle bien un mécanisme que la littérature sociologique a déjà mis au jour depuis fort longtemps : les inégalités ne s'expriment pas directement dans les plateformes de sélection (qu'il s'agisse d'APB ou de Parcoursup), mais sont antérieures et se traduisent par des résultats scolaires moyens plus ou moins bons selon les différentes fractions de la population.
+
+Par ailleurs, nos résultats ne permettent pas réellement de conclure à une démocratisation générale de l'accès aux formations sélectives depuis Parcoursup, d'une part car il nous est compliqué de comparer formellement les régressions linéaires réalisées entre les deux plateformes, d'autre part car selon les contrôles et les interactions, le potentiel effet d'ouverture de Parcoursup apparaît plus ou moins nettement.
+
+# Bibliographie
+
+Ressources académiques et institutionnelles :
+
+-   Ministère de l’Enseignement supérieur, de la Recherche et de l’Espace. (2025, 10 octobre). *Bilan Parcoursup 2025 : un nombre record de candidats, des résultats stables et un accompagnement renforcé au lycée*. [https://www.enseignementsup-recherche.gouv.fr/fr/bilan-parcoursup-2025-un-nombre-record-de-candidats-des-resultats-stables-et-un-accompagnement-100136](#0)
+
+-   Systèmes d’information et études statistiques. (2025). *Parcoursup 2025 : Les vœux des lycéens à l’entrée dans l’enseignement supérieur* (Note Flash n° 08). Ministère de l’Enseignement supérieur et de la Recherche. [https://www.enseignementsup-recherche.gouv.fr/sites/default/files/2025-05/nf-sies-2025-08-36910.pdf](https://www.enseignementsup-recherche.gouv.fr/sites/default/files/2025-05/nf-sies-2025-08-36910.pdf?utm_source=chatgpt.com)
+
+-   Boudon, R. (1973). *L'inégalité des chances : La mobilité sociale dans les sociétés industrielles*. Armand Colin.
+
+-   Bonneau, C., Charousset, P., Grenet, J., & Thebault, G. (2021). *Quelle démocratisation des grandes écoles depuis le milieu des années 2000 ?* (Rapport de l'Institut des Politiques Publiques - IPP). <https://www.ipp.eu/wp-content/uploads/2021/01/democratisation-grandes-ecoles-depuis-milieu-annees-2000-ipp-janvier-2021.pdf>
+
+-   Bechichi, N., Grenet, J., Thebault, G. D’Admission post-bac à Parcoursup : quels effets sur la répartition des néo-bacheliers dans les formations d’enseignement supérieur ?. France, portrait social - Édition 2021, INSEE, pp.105-121, 2021, INSEE, 978-2-11-162341-5. hal-03501118. <https://hal.science/hal-03501118>
+
+-   Cour des comptes. (2020). *Un premier bilan de l’accès à l’enseignement supérieur dans le cadre de la loi Orientation et réussite des étudiants*. Cour des comptes. <https://www.ccomptes.fr/system/files/2020-03/20200227-rapport-premier-bilan-loi-ORE-3.pdf>
+
+-   Couto, M.-P., Bugeja-Bloch, F., Frouillou, L. (2021). Parcoursup : les prémices d’un accroissement de la stratification sociale et scolaire des formations du supérieur. *Agora débats/jeunesses, 89* (3), 23-38. <https://shs.cairn.info/revue-agora-debats-jeunesses-2021-3-page-23?lang=fr>
+
+-   Leïla Frouillou, « Parcoursup et la reconfiguration des inégalités dans l’enseignement supérieur français », *Diversité*, 202 volume 1 \| 2023. <https://journals.openedition.org/diversite/3818>
+
+Jeux de données :
+
+-   Ministère de l’Enseignement supérieur et de la Recherche. (2017). *Données Admission Post-Bac – Session 2017*. <https://www.data.gouv.fr/datasets/apb-voeux-de-poursuite-detude-et-admissions-1>.
+
+-   Ministère de l’Enseignement supérieur et de la Recherche. (2025). *Données Parcoursup – Session 2025*. <https://www.data.gouv.fr/datasets/parcoursup-2025-voeux-de-poursuite-detudes-et-de-reorientation-dans-lenseignement-superieur-et-reponses-des-etablissements>
